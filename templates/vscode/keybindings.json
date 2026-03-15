@@ -158,5 +158,10 @@
     "key": "ctrl+alt+cmd+t",
     "command": "workbench.action.createTerminalEditor",
     "when": "terminalProcessSupported"
+  },
+  {
+    "key": "alt+cmd+s",
+    "command": "workbench.action.toggleUnifiedSidebarFromKeyboard",
+    "when": "cursor.agentIdeUnification.enabled == true && !isAuxiliaryWindowFocusedContext"
   }
 ]
