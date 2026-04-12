@@ -16,6 +16,7 @@ outdated() {
   softwareupdate -l
 
   template_validation
+  skills update -g
 }
 
 genpass() {
@@ -108,6 +109,6 @@ first_of() {
   fi
 }
 
-sort_and_count() { 
-  awk ' { tot[$0]++ } END { for (i in tot) print tot[i],i } ' | sort -gr 
+sort_and_count() {
+  awk ' { tot[$0]++ } END { for (i in tot) print tot[i],i } ' | sort -gr
 }
