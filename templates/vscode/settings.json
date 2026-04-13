@@ -55,6 +55,10 @@
       "colors": "css",
       "selector": "javascript",
     },
+    {
+      "colors": "css",
+      "selector": "json",
+    },
   ],
   "dbcode.connections": [
     {
@@ -182,7 +186,7 @@
   "@azure.argTenant": "",
   "remote.defaultExtensionsIfInstalledLocally": [],
   "dbcode.cloudProviders": [],
-  "chat.agent.maxRequests": 50,
+  "chat.agent.maxRequests": 300,
   "chat.renderRelatedFiles": true,
   "github.copilot.chat.codesearch.enabled": true,
   "github.copilot.chat.agent.thinkingTool": true,
