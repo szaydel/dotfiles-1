@@ -257,4 +257,5 @@
   "chat.tools.confirmationCarousel.enabled": true,
   "chat.tools.global.autoApprove": true,
   "chat.tools.terminal.autoReplyToPrompts": true,
+  "workbench.colorTheme": "PlasticAB Dark",
 }
